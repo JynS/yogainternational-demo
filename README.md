@@ -1,6 +1,8 @@
 # yogainternational-demo
 Interview Project
 
-npm install
+- npm install
+- npm build
+- npm start
 
-npm start
+opens in http://localhost:8080
