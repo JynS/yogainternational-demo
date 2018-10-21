@@ -135,7 +135,9 @@ const fCats = [
             "5 Min",
             "10 Min",
             "15 Min",
-            "30 Min"
+            "30 Min",
+            "45 Min",
+            "60 Min
         ]
     },
     {
@@ -143,22 +145,54 @@ const fCats = [
         drops: [
             "Beginner",
             "Level 1",
-            "Level 1/2"
+            "Level 1/2",
+            "Level 2"
         ]
     },
     {
         name: "Style",
         drops: [
             "Acroyoga",
-            "Ashtanga"
+            "Ashtanga",
+            "Conditioning",
+            "Diverse Movement",
+            "Forrest",
+            "Guided Meditation",
+            "Guided Relaxation",
+            "Hatha Yoga",
+            "Iyengar",
+            "Jivamukti",
+            "Kundalini",
+            "Pranayama Practice",
+            "Prenatal And Postpartum",
+            "Restorative",
+            "Vinyasa",
+            "Yin",
+            "Yoga Therapy Class"
+            
         ]
     },
     {
         name: "Anatomy",
         drops: [
+            "Abdominals",
+            "Arms",
+            "Chest",
+            "Digestion",
+            "Feet",
             "Full Body",
             "Glutes and Buttock",
-            "Hamstrings"
+            "Hamstrings",
+            "Hips",
+            "Legs",
+            "Low Back",
+            "Mind And Brain",
+            "Neck",
+            "Nervous System",
+            "Quads",
+            "Shoulders",
+            "Spine",
+            "Upper Back"
         ]
     }
 ];
