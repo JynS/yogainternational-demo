@@ -137,7 +137,7 @@ const fCats = [
             "15 Min",
             "30 Min",
             "45 Min",
-            "60 Min
+            "60 Min"
         ]
     },
     {
