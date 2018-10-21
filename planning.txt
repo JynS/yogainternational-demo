@@ -1,0 +1,56 @@
+- text search
+- at least one filter drop down
+- results count
+--------------
+filter drop downs that would be used to search for results. Would they work the same way as text search?
+    - filters can be added on top of each other while a text search would only be one term at a time.
+    - the filters are more optimized because they're connected to properties on the classes. for example: instead of searching every property for the word "15-min", it would look at just the "duration" property of each class and react accordingly.
+    - so filters are the optimal and preferred way of navigating the site, while text search would probably be for things that would be too esoteric for a prefilled filter. An example would be "chest".
+     - The search bar will still use any active filters when it completes a search
+        - removing the filter tags will redo the search 
+        - even deleting the text in the search bar performs a search
+
+Find out when the stuff is done rendering and then can be shown after a loading icon
+-----------
+What we need:
+-First Row
+    - search bar
+        - input
+        - link to start search
+    - filter
+        - Div with a button
+        - hidden div that serves as the dropdox, shows when button is clicked.
+            - contains rows of buttons
+                - Teacher: img then span 
+                - Duration: Just plain text within the button
+                - Level: Just plain text within the button
+                - Style: Just plain text within the button
+                - Anatomy: Just plain text within the button
+            - buttons all perform a "search with me" function
+- Second Row
+    - active filter tag
+        - div 
+            - Label
+            - button for removing tag. Will need to reperform a search.
+        - This will need to appear when a search is made.
+- Third Row
+    - result counter
+        - p
+    - class panels
+        - does Not need the hover function
+        - div
+            - link
+                - img
+                - div for content
+                    - h4 title
+                    - div (im making it am "i") for Teacher
+                    - p for blurb. opacity is 0 and truncated 
+                - div 
+                    - div
+                        - span with Level
+                - div
+                    - div
+                        - i for clock icon
+                        - span for length of time
+
+-----------------
